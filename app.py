@@ -137,7 +137,7 @@ st.metric(label="Spearman Correlation", value=round(spearman_corr, 3))
 
 # 📌 **Generate QR Code for Sharing**
 st.subheader("📱 Share this App!")
-app_url = "https://your-app-link.com"  # Replace with your actual deployment link
+app_url = "https://sentiment-stock-app.streamlit.app"  # Replace with your actual deployment link
 qr = qrcode.make(app_url)
 qr_img = BytesIO()
 qr.save(qr_img, format="PNG")
